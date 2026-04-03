@@ -30,13 +30,13 @@ export default function Download() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-            <button className="w-full sm:w-auto px-8 py-5 rounded-2xl bg-white text-primary font-bold hover:bg-gray-50 transition-colors flex items-center justify-center gap-4 shadow-xl hover:-translate-y-1 duration-300">
+            <a href="https://drive.google.com/file/d/1ESB494cVOr_JlLoZZEkkXQIwPHP7iBvM/view?usp=drive_link" target="_blank" rel="noreferrer" className="w-full sm:w-auto px-8 py-5 rounded-2xl bg-white text-primary font-bold hover:bg-gray-50 transition-colors flex items-center justify-center gap-4 shadow-xl hover:-translate-y-1 duration-300">
               <DownloadIcon className="w-6 h-6" />
               <div className="text-right">
                 <div className="text-xs font-medium text-gray-500 uppercase tracking-wider">حمل التطبيق</div>
                 <div className="text-lg leading-none mt-1">للأندرويد (APK)</div>
               </div>
-            </button>
+            </a>
           </div>
         </motion.div>
       </div>
